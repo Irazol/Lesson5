@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Array5 {
     public static void main(String[] args) {
 
-        int[] array = new int[1000];
         Scanner input = new Scanner(System.in);
         System.out.println("Введіть якесь число n:");
         int n = input.nextInt();
+        int[] array = new int[n];
 
         for(int i = 0; i <array.length; i++){
             if(i==0)array[i] =0;
